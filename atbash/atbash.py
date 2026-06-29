@@ -7,4 +7,8 @@ def atbash(text):
         else:
             result += char
     return result
-print(atbash("Brian Geoffrey"))
+
+user_input = input("Enter the text to encrypt/decrypt: ")
+
+output = atbash(user_input)
+print("Output:", output)
